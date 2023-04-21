@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title> Games to be Played </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <!-- <style>
+            div.nav-links{
+            position: sticky;
+            top: 0;
+            font-size: 20px;
+            }
+        </style> -->
+    </head>
+    <body>
+        <section class = "header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class = "nav-links" id="navLinks">
+                    <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href ="#home">HOME</a></li>
+                        <li><a href ="#about-us">ABOUT</a></li>
+                        <li><a href ="#genre">GENRE</a></li>
+                        <li><a href ="#blog">BLOG</a></li>
+                        <li><a href ="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                <a id="home"></a>
+                <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+            </nav>
+            
+            <div class="text-box">
+                <h1>World's best game reviewing website</h1>
+                <p id="one">It is very easy to make a website using youtube tutorials and you can learn many new things,<br> get on hand knowledge about the concepts.</p>
+                <a href="" class="main-btn">Visit us to know more</a>
+            </div>
+        </section>
+
+<!------------ ABOUT US ------------>
+<div style="background-image: url('Images/about_us-back.png');
+            
+            background-size: contain; height: 640px; padding-top:80px; padding-bottom: 80px;">
+<section class = "about-us">
+    <div style="background-image: url(image/about_us-back.png)">
+    <a id="about-us"></a>
+        <h1 id="a">About Us</h1>
+            <p id="two" >We are a community of enthusiastic gamers who are present here to help other fellow gamers to select their next series of game to play 
+                so that you never run out of options to play the games. We offer review of variety of genre of games which can be from simple click games and arcade to
+                sci-fi high graphic games which will immerse you into their world of realism. Where you are the main character of the story.
+                It dosent matter whether you are a human species or some psychotic aliens out  to capture the whole universe.
+                People at our community give reviews of all types of games that are out there. So dont wait and start the search for your next game at our website.
+            </p>
+    </div>
+</section>
+</div>
+<hr size="15px" style="background-color: aquamarine;">
+
+<!----------- GENRE --------------->
+<section class = "genre">
+    <a id="genre"></a>
+    <h1 id="b">GENRE</h1>
+    <p id="b">There are different types of genre that you can enjoy.<br> Some of which can be seen below.</p>
+    <div class="row">
+        <div class="genre-col">
+            <img src="images/adventure.jpeg">
+            <h3>Adventure</h3>
+            <div class="layer">
+                <p>This genre of game is perfect for people who love some nice exploration in their game with a great story line</p>
+            </div>         
+        </div>
+
+        <div class="genre-col">
+            <img src="images/arcade.jpeg">
+            <h3>Arcade</h3>
+            <div class="layer">
+            <p>This genre of game is suitable for people who love some old classic games like tetris,pacman,minesweeper and pinball</p>
+            </div>
+        </div>
+
+        <div class="genre-col">
+            <img src="images/shooting.jpeg">
+            <h3>Shooting</h3>
+            <div class="layer">
+            <p>This genre of games is perfect of people who love shooting with their guns and show off their aiming skills</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row2">
+        <div class="genre-col">
+            <img src="images/fighting.jpeg">
+            <h3>Fighting</h3>
+            <div class="layer">
+            <p>This genre of games is made for people who want to enjoy old style fighting games like tekken and street fighter</p>
+            </div>
+        </div>
+
+        <div class="genre-col">
+            <img src="images/racing.jpeg">
+            <h3>Racing</h3>
+            <div class="layer">
+            <p>This genre of games is perfect for people who love teh thrill of fast and stylish cars that can leave anyone ordinary car in dust</p>
+            </div>
+        </div>
+
+        <div class="genre-col">
+            <img src="images/strategy.jpeg">
+            <h3>Strategy</h3>
+            <div class="layer">
+            <p>This genre of games is heaven for people who like to use their brains instead of their mechanical skills</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-------------Call to Action----------->
+<section class="cta">
+    <a id="contact"></a>
+    <!-- <img src="images/contact.jpeg"> -->
+    <h1>Join our commmunity or help us in making the best reviews by supporting us through our patreon id</h1>
+    <a href="" class="main-btn">CONTACT US</a>
+</section>    
+    
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu(){
+                navLinks.style.right = "-300px";
+            }
+        </script>
+
+    </body>
+</html>
